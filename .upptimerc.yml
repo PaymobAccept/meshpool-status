@@ -3,10 +3,10 @@
 owner: PaymobAccept
 repo: meshpool-status
 
-# Check every 10 minutes (owner, 2026-11-17: "slightly wider than 5 mins"). GitHub may start a
+# Check every 15 minutes (owner, 2026-11-17). GitHub may start a
 # scheduled run a few minutes late under load. Other workflows keep Upptime's defaults.
 workflowSchedule:
-  uptime: "*/10 * * * *"
+  uptime: "*/15 * * * *"
 
 sites:
   - name: Website
@@ -31,7 +31,7 @@ status-website:
   favicon: https://meshpool.ai/brand/favicon-32x32.png
   name: MeshPool Status
   introTitle: "**MeshPool** service status"
-  introMessage: Live availability of the MeshPool website, console, chat workspace, sign-in and API gateway, checked every 10 minutes.
+  introMessage: Live availability of the MeshPool website, console, chat workspace, sign-in and API gateway.
   navbar:
     - title: Status
       href: /
