@@ -1,31 +1,39 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# MeshPool status page (https://status.meshpool.ai), built by Upptime on GitHub Actions + Pages.
+# Docs: https://upptime.js.org/docs/configuration
+owner: PaymobAccept
+repo: meshpool-status
+
+# Check every 10 minutes (owner, 2026-11-17: "slightly wider than 5 mins"). GitHub may start a
+# scheduled run a few minutes late under load. Other workflows keep Upptime's defaults.
+workflowSchedule:
+  uptime: "*/10 * * * *"
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://meshpool.ai
+  - name: Console
+    # Signed-out visitors are redirected to sign-in, so a redirect means the console is up.
+    url: https://app.meshpool.ai/auth/login
+    expectedStatusCodes: [200, 302]
+  - name: Chat workspace
+    url: https://chat.meshpool.ai
+    expectedStatusCodes: [200, 302]
+  - name: Sign-in
+    url: https://id.meshpool.ai/.well-known/openid-configuration
+  - name: API gateway
+    # No key is sent on purpose: 401 proves the edge and the gateway's key check answer.
+    url: https://llm.meshpool.ai/v1/models
+    expectedStatusCodes: [401]
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.meshpool.ai
+  logoUrl: https://meshpool.ai/brand/meshpool-logo.png
+  favicon: https://meshpool.ai/brand/favicon-32x32.png
+  name: MeshPool Status
+  introTitle: "**MeshPool** service status"
+  introMessage: Live availability of the MeshPool website, console, chat workspace, sign-in and API gateway, checked every 10 minutes.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: meshpool.ai
+      href: https://meshpool.ai
