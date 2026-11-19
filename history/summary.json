@@ -4,18 +4,20 @@
     "url": "https://meshpool.ai",
     "icon": "https://icons.duckduckgo.com/ip3/meshpool.ai.ico",
     "slug": "website",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 206,
-    "timeDay": 155,
-    "timeWeek": 206,
-    "timeMonth": 206,
-    "timeYear": 206,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.97%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 210,
+    "timeDay": 189,
+    "timeWeek": 210,
+    "timeMonth": 210,
+    "timeYear": 210,
+    "dailyMinutesDown": {
+      "2026-11-19": 1
+    }
   },
   {
     "name": "Console",
@@ -40,18 +42,20 @@
     "url": "https://chat.meshpool.ai",
     "icon": "https://icons.duckduckgo.com/ip3/chat.meshpool.ai.ico",
     "slug": "chat-workspace",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 365,
-    "timeDay": 168,
-    "timeWeek": 365,
-    "timeMonth": 365,
-    "timeYear": 365,
-    "dailyMinutesDown": {}
+    "time": 330,
+    "timeDay": 196,
+    "timeWeek": 330,
+    "timeMonth": 330,
+    "timeYear": 330,
+    "dailyMinutesDown": {
+      "2026-11-19": 0
+    }
   },
   {
     "name": "Sign-in",
