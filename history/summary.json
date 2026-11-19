@@ -4,19 +4,19 @@
     "url": "https://meshpool.ai",
     "icon": "https://icons.duckduckgo.com/ip3/meshpool.ai.ico",
     "slug": "website",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 210,
-    "timeDay": 189,
-    "timeWeek": 210,
-    "timeMonth": 210,
-    "timeYear": 210,
+    "status": "up",
+    "uptime": "99.53%",
+    "uptimeDay": "98.92%",
+    "uptimeWeek": "99.53%",
+    "uptimeMonth": "99.53%",
+    "uptimeYear": "99.53%",
+    "time": 205,
+    "timeDay": 187,
+    "timeWeek": 205,
+    "timeMonth": 205,
+    "timeYear": 205,
     "dailyMinutesDown": {
-      "2026-11-19": 1
+      "2026-11-19": 16
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "https://chat.meshpool.ai",
     "icon": "https://icons.duckduckgo.com/ip3/chat.meshpool.ai.ico",
     "slug": "chat-workspace",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 330,
-    "timeDay": 196,
-    "timeWeek": 330,
-    "timeMonth": 330,
-    "timeYear": 330,
+    "status": "up",
+    "uptime": "99.55%",
+    "uptimeDay": "98.97%",
+    "uptimeWeek": "99.55%",
+    "uptimeMonth": "99.55%",
+    "uptimeYear": "99.55%",
+    "time": 352,
+    "timeDay": 278,
+    "timeWeek": 352,
+    "timeMonth": 352,
+    "timeYear": 352,
     "dailyMinutesDown": {
-      "2026-11-19": 0
+      "2026-11-19": 15
     }
   },
   {
