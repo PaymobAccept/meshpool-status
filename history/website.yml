@@ -1,7 +1,7 @@
 url: https://meshpool.ai
-status: up
-code: 200
-responseTime: 4320
-lastUpdated: 2026-11-24T05:37:10.446Z
+status: down
+code: 500
+responseTime: 5192
+lastUpdated: 2026-11-24T10:37:16.424Z
 startTime: 2026-11-17T12:51:55.563Z
 generator: Upptime <https://github.com/upptime/upptime>
